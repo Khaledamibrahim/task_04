@@ -1,3 +1,4 @@
+
 """
 Django settings for task_04 project.
 

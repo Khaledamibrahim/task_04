@@ -2,13 +2,18 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>List</title>
+        <title>The Kuwait List</title>
     </head>
     <body>
         {% for obj in my_list %}
             <ul>
-                <li>{{ obj.name }}</li>
-                <li>{{ obj.food_type }}</li>
+                <li><h1>{{obj.name}}</h1></li>
+                <li><h2>{{obj.cuisine}}</h2></li>
+                <li>{{obj.opening_time}}</li>
+                <li>{{obj.closing_time }}</li>
+                <li>{{obj.kids_allowed }}</li>
+                <li>{{obj.walk_in_allowed }}</li>
+                <li>{{obj.comments }}</li>
             </ul>
         {% endfor %}
     </body>
